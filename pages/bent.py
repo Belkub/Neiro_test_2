@@ -28,7 +28,7 @@ def voice():
 
 
 st.title('Bentonite Co')
-st.title('AI bentonite quality calc')
+
 
 st.subheader("Анализ бентопорошка")
 
