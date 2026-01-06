@@ -1,0 +1,6 @@
+streamlit
+pandas
+cloudpickle
+matplotlib
+scipy
+openpyxl
