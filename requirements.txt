@@ -3,4 +3,14 @@ pandas
 cloudpickle
 matplotlib
 scipy
+
+openpyxl
+
+speechrecognition
+pydub
+pandas
+cloudpickle
+matplotlib
+scipy
+xlsxwriter
 openpyxl
