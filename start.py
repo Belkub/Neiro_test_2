@@ -7,7 +7,7 @@ import streamlit as st
 import pandas as pd
 import speech_recognition as sr
 
-img = Image.open("photo.png")
+img = Image.open("bent.png")
 st.image(img, use_column_width=True)
 st.title('Bentonite Co')
 st.title('AI bentonite quality calc')
