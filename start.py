@@ -8,7 +8,7 @@ import pandas as pd
 import speech_recognition as sr
 
 img = Image.open("photo.png")
-img.show()
+st.image(img)
 st.title('Bentonite Co')
 st.title('AI bentonite quality calc')
 
