@@ -1,13 +1,14 @@
 import numpy as np
 import math
-
+from PIL import Image
 
 import pickle
 import streamlit as st
 import pandas as pd
 import speech_recognition as sr
 
-
+img = Image.open("photo.png")
+img.show()
 st.title('Bentonite Co')
 st.title('AI bentonite quality calc')
 
