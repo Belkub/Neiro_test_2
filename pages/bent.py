@@ -1,6 +1,6 @@
 import numpy as np
 import math
-
+from PIL import Image
 
 import pickle
 import streamlit as st
