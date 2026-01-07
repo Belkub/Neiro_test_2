@@ -8,7 +8,7 @@ import pandas as pd
 import speech_recognition as sr
 
 img = Image.open("bent.png")
-st.image(img, width=200)
+st.image(img, width=150)
 #st.image(img, use_column_width=True)
 #st.title('Bentonite Co')
 st.title('Bentonite quality calc')
