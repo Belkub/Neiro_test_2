@@ -8,8 +8,9 @@ import pandas as pd
 import speech_recognition as sr
 
 
-st.title('Bentonite Co')
-
+#st.title('Bentonite Co')
+img = Image.open("bent.png")
+st.image(img, width=200)
 
 st.subheader("Справочник реологических критериев качества бентонита")
 
