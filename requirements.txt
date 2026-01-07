@@ -3,7 +3,7 @@ pandas
 cloudpickle
 matplotlib
 scipy
-
+Pillow
 openpyxl
 xlrd
 speechrecognition
@@ -14,4 +14,5 @@ matplotlib
 scipy
 xlsxwriter
 openpyxl
+
 
