@@ -27,8 +27,9 @@ def voice():
         return text
 
 
-st.title('Bentonite Co')
-
+#st.title('Bentonite Co')
+img = Image.open("bent.png")
+st.image(img, width=200)
 
 st.subheader("Анализ бентопорошка")
 
