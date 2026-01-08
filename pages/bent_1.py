@@ -10,7 +10,7 @@ import speech_recognition as sr
 
 #st.title('Bentonite Co')
 img = Image.open("bent.png")
-st.image(img, width=200)
+st.image(img, width=150)
 
 st.subheader("Справочник реологических критериев качества бентонита")
 
