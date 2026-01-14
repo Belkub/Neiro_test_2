@@ -84,6 +84,13 @@ if st.button('Расчет'):
     else:
         st.success(f'YP/PV: {YP/PV:,.1f}')
 
+    if f600 < 25:
+        st.error(f'f600: {f600:,.1f}')
+    elif f600 <= 30 and f600 >= 25:
+        st.warning(f'f600: {f600:,.1f}')
+    else:
+        st.success(f'f600: {f600:,.1f}')
+
     if I < 0.2:
         st.error(f'Критерий изотропии: {I:,.2f}')
     elif I >= 0.2 and I < 0.24:
