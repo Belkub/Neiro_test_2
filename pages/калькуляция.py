@@ -55,7 +55,8 @@ bn = st.checkbox('Рассчитать эквивалент?')
 if bn:
     w = st.number_input('Влага глины, %: ', min_value = 2.0, max_value = 40.0, value = 15.0, step = 0.5)
     m = st.number_input('Молек масса ПАВ, г/моль: ', min_value = 80.0, max_value = 700.0, value = 500.0, step = 0.5)
-    E = round(0.001*10*m*(1 - w*0.01)*KOE/(1-W*0.01), 1)
+    s = st.number_input('Концентрация ПАВ, %: ', min_value = 50.0, max_value = 100.0, value = 70.0, step = 5.0)
+    E = round(0.001*10*m*(1 - w*0.01)*KOE/((1-W*0.01)*s*0.01), 1)
 
 st.write('API-test')
 f600 = st.slider('FANN_600', 10, 140, 70)
